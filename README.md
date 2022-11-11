@@ -23,4 +23,4 @@ to install the cod, download the zip file, or you can cloan the repository.
 * by using HTML and CSS along with Javascript you can create your very own unique secure password
 * the point of this is to emphasize how much Javascript can dramaticly change a simple HTML
 
-![](caltrops work.png)
+https://github.com/AndrewGain/Caltrops/blob/main/caltrops%20work.png?raw=true
