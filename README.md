@@ -1,37 +1,26 @@
-# Caltrops
-// Assignment Code
-var generateBtn = document.querySelector("#generate");
-var numbers = ["1234567890"];
-var lowercases = ["abcdefghijklmnopqrstuvwxyz"];
-var uppercases = ["ABCDEFGHIJKLMNOPQRSTUVWXYZ"];
-var symbols = ["!@#$^&*()_+"];
+# caltrops
+
+This application was created to help users generate a secure password
+
+The project empasizes the use of javascript to create a random yet secure password for the user
+
+The website is avalible on GitHub to acces it and create your own password you can follow the deployment link or even download the source files and generate your own template so you can get started creating your very own secure passwords
+
+## getting started 
+
+follow the deployment link below to get started
+
+*[GitHub Rpository](https://github.com/AndrewGain/Caltrops)
 
 
+### prerequisites
+to install this applicaton, you will need a text editor. i personally use Visual Studio Code.
 
-// Write password to the #password input
-function writePassword() {
-var password = generatePassword();
-var passwordText = document.querySelector("#password");
+### instalation
+to install the cod, download the zip file, or you can cloan the repository.
 
-  passwordText.value = password;
+### summary 
+* by using HTML and CSS along with Javascript you can create your very own unique secure password
+* the point of this is to emphasize how much Javascript can dramaticly change a simple HTML
 
-}
-
-// Add event listener to generate button
-generateBtn.addEventListener("click", writePassword);
-
-// pop up window for Prompts
-function generatePassword() {
-prompt("Please enter the number of characters you want for you new password.  It must be more than 7 but less than 128.");
-
-confirm("Do you want numbers in your password?");
-
-confirm("Do you want lowercases in your password?");
-
-confirm("Do you want uppercases in your password?");
-
-confirm("Do you want special characters in your password?");
-  // pop up windows for prompts
-}
-
-if (userSelection.length ===0)   return;
+## 
